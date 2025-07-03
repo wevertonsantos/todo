@@ -12,9 +12,10 @@ Editar ou reordenar tarefas (opcional): você pode mudar o texto ou a ordem de p
 
 # criando lista
 lista_tarefas = []
+# fazendo loop while para não sair do programa assim que sair
 while True:
     # pedindo para o usuário que escolha alguma das opções
-    escolha = int(input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa. O que deseja da sua To-Do List? "))
+    escolha = int(input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa., 5 - Sair da To-Do List. O que deseja da sua To-Do List? "))
     if escolha == 1:
         for tarefa in lista_tarefas:
             print("Tarefas:")
