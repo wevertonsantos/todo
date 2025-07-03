@@ -18,7 +18,8 @@ while True:
     escolha = int(input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa., 5 - Sair da To-Do List. O que deseja da sua To-Do List? "))
     # início do if
     if escolha == 1:
-        if lista_tarefas == []: # verificando se lista está vazia
+        # verificando se lista está vazia
+        if lista_tarefas == []: 
             print("Lista de tarefas vazia")
         else:
             for tarefa in lista_tarefas:
