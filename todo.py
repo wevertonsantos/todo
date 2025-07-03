@@ -17,3 +17,6 @@ escolha = input("O que deseja fazer na sua To-Do List? Opções: 1 - Mostrar lis
 
 if escolha == 1:
     print(lista_tarefas) # mostrando a lista de tarefas
+elif escolha == 2:
+    nova_tarefa = input("Qual tarefa deseja colocar na lista?") # perguntando qual tarefa deseja incluir
+    lista_tarefas.append(nova_tarefa) # adicionando tarefa a lista de tarefas
