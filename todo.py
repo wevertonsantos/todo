@@ -22,8 +22,8 @@ while True:
         if lista_tarefas == []: 
             print("Lista de tarefas vazia")
         else:
+            print("Tarefas:")
             for tarefa in lista_tarefas:
-                print("Tarefas:")
                 # mostrando cada tarefa
                 print(f"{lista_tarefas.index(tarefa) + 1} - {tarefa}")
     elif escolha == 2:
