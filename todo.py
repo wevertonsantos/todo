@@ -24,15 +24,18 @@ while True:
         else:
             for tarefa in lista_tarefas:
                 print("Tarefas:")
-                print("Tarefas feitas: [x]. Tarefas não feitas: []")
                 # mostrando cada tarefa
-                print(f"[] - {tarefa}")
+                print(f"{lista_tarefas.index(tarefa)} - {tarefa}")
     elif escolha == 2:
         # perguntando qual tarefa deseja incluir
         nova_tarefa = input("Qual tarefa deseja colocar na lista? ") 
         # adicionando tarefa a lista de tarefas
         lista_tarefas.append(nova_tarefa) 
         print("Tarefa incluída com sucesso")
+    elif escolha == 4:
+        tarefa_para_excluir = input("Digite a tarefa que deseja excluir: ")
+        if tarefa_para_excluir in lista_tarefas:
+            lista_tarefas.remove(tarefa_para_excluir)
     elif escolha == 5:
         print("Volte sempre! :)")
         break
