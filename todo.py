@@ -32,6 +32,13 @@ while True:
         # adicionando tarefa a lista de tarefas
         lista_tarefas.append(nova_tarefa) 
         print("Tarefa incluída com sucesso")
+    elif escolha == 3:
+        # perguntando qual tarefa deseja marcar como feita
+        tarefa_feita = input("Qual tarefa deseja marcar como feita? ")
+        # verificando se tarefa está na lista
+        if tarefa_feita in lista_tarefas:
+            # atribuindo concluído na tarefa feita
+            lista_tarefas[lista_tarefas.index(tarefa_feita)] = f"[x] - {tarefa_feita} - concluído"
     elif escolha == 4:
         # perguntando qual tarefa deseja excluir
         tarefa_para_excluir = input("Digite a tarefa que deseja excluir: ")
