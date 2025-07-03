@@ -16,6 +16,7 @@ lista_tarefas = []
 while True:
     # pedindo para o usuário que escolha alguma das opções
     escolha = int(input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa., 5 - Sair da To-Do List. O que deseja da sua To-Do List? "))
+    # início do if
     if escolha == 1:
         for tarefa in lista_tarefas:
             print("Tarefas:")
