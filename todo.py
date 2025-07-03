@@ -25,10 +25,13 @@ while True:
             for tarefa in lista_tarefas:
                 print("Tarefas:")
                 print("Tarefas feitas: [x]. Tarefas não feitas: []")
-                print(f"[] - {tarefa}") # mostrando cada tarefa
+                # mostrando cada tarefa
+                print(f"[] - {tarefa}")
     elif escolha == 2:
-        nova_tarefa = input("Qual tarefa deseja colocar na lista? ") # perguntando qual tarefa deseja incluir
-        lista_tarefas.append(nova_tarefa) # adicionando tarefa a lista de tarefas
+        # perguntando qual tarefa deseja incluir
+        nova_tarefa = input("Qual tarefa deseja colocar na lista? ") 
+        # adicionando tarefa a lista de tarefas
+        lista_tarefas.append(nova_tarefa) 
         print("Tarefa incluída com sucesso")
     elif escolha == 5:
         print("Volte sempre! :)")
