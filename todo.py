@@ -39,6 +39,7 @@ while True:
         if tarefa_feita in lista_tarefas:
             # atribuindo concluído na tarefa feita
             lista_tarefas[lista_tarefas.index(tarefa_feita)] = f"[x] - {tarefa_feita} - concluído"
+            print("Tarefa marcada como concluída")
     elif escolha == 4:
         # perguntando qual tarefa deseja excluir
         tarefa_para_excluir = input("Digite a tarefa que deseja excluir: ")
