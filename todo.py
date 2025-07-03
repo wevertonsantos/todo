@@ -33,8 +33,11 @@ while True:
         lista_tarefas.append(nova_tarefa) 
         print("Tarefa incluída com sucesso")
     elif escolha == 4:
+        # perguntando qual tarefa deseja excluir
         tarefa_para_excluir = input("Digite a tarefa que deseja excluir: ")
+        # verificando se tarefa está na lista
         if tarefa_para_excluir in lista_tarefas:
+            # removendo da lista a tarefa escolhida
             lista_tarefas.remove(tarefa_para_excluir)
     elif escolha == 5:
         print("Volte sempre! :)")
