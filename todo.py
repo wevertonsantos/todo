@@ -25,7 +25,7 @@ while True:
             for tarefa in lista_tarefas:
                 print("Tarefas:")
                 # mostrando cada tarefa
-                print(f"{lista_tarefas.index(tarefa)} - {tarefa}")
+                print(f"{lista_tarefas.index(tarefa) + 1} - {tarefa}")
     elif escolha == 2:
         # perguntando qual tarefa deseja incluir
         nova_tarefa = input("Qual tarefa deseja colocar na lista? ") 
