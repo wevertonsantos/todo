@@ -9,3 +9,8 @@ Remover tarefa (opcional): a tarefa pode ser apagada ou arquivada.
 
 Editar ou reordenar tarefas (opcional): você pode mudar o texto ou a ordem de prioridade.
 '''
+
+# criando lista
+lista_tarefas = []
+# pedindo para o usuário que escolha alguma das opções
+escolha = input("O que deseja fazer na sua To-Do List? Opções: 1 - Mostrar lista, 2 - Adicionar tarefa")
