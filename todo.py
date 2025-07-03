@@ -15,7 +15,7 @@ lista_tarefas = []
 # fazendo loop while para não sair do programa assim que escolher alguma opção
 while True:
     # pedindo para o usuário que escolha alguma das opções
-    escolha = int(input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa., 5 - Sair da To-Do List. O que deseja da sua To-Do List? "))
+    escolha = int(input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa, 3 - Marcar como feita, 4 - Remover tarefa, 5 - Sair da To-Do List. O que deseja da sua To-Do List? "))
     # início do if
     if escolha == 1:
         # verificando se lista está vazia
