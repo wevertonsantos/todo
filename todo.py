@@ -13,7 +13,7 @@ Editar ou reordenar tarefas (opcional): você pode mudar o texto ou a ordem de p
 # criando lista
 lista_tarefas = []
 # pedindo para o usuário que escolha alguma das opções
-escolha = input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa. O que deseja da sua To-Do List?")
+escolha = int(input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa. O que deseja da sua To-Do List? "))
 
 if escolha == 1:
     print(lista_tarefas) # mostrando a lista de tarefas
