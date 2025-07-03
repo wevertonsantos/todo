@@ -39,6 +39,9 @@ while True:
         if tarefa_para_excluir in lista_tarefas:
             # removendo da lista a tarefa escolhida
             lista_tarefas.remove(tarefa_para_excluir)
+            print("Tarefa removida com sucesso")
+        else:
+            print("Está tarefa não existe na lista")
     elif escolha == 5:
         print("Volte sempre! :)")
         break
