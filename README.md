@@ -1,4 +1,4 @@
-##📝 To-Do List em Python
+## 📝 To-Do List em Python
 Um projeto simples e funcional de To-Do List (lista de tarefas) feito em Python. O objetivo é permitir que o usuário gerencie suas tarefas através do terminal, com opções para adicionar, visualizar, marcar como feita e remover tarefas.
 
 Este projeto é ideal para iniciantes que estão aprendendo lógica de programação, estruturas de dados e manipulação de listas em Python.
