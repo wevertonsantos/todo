@@ -11,7 +11,6 @@ Remover tarefa (opcional): a tarefa pode ser apagada ou arquivada.
 
 # criando lista
 lista_tarefas = []
-lista_tarefas_feitas = []
 # fazendo loop while para não sair do programa assim que escolher alguma opção
 while True:
     try:
