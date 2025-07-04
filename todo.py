@@ -1,11 +1,11 @@
 '''
 Adicionar tarefa: você escreve o que precisa ser feito. Exemplo: "Estudar inglês".
 
-Listar tarefas: todas aparecem na lista, geralmente com uma checkbox (caixinha) ao lado.
+Listar tarefas: todas aparecem na lista.
 
-Marcar como feita: quando terminar, marca a caixinha ou clica em “concluído”.
+Marcar como feita: quando terminar é excluída
 
-Remover tarefa (opcional): a tarefa pode ser apagada ou arquivada.
+Remover tarefa (opcional): a tarefa pode ser apagada ou.
 
 '''
 
