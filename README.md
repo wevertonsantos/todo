@@ -16,16 +16,13 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/wevertonsantos/todo.git
+
 Navegue até o diretório do projeto:
-```
-
-```bash
 cd todo
-Execute o script:
-```
 
-```bash
+Execute o script:
 python todo.py
+
 ⚠️ Certifique-se de ter o Python 3 instalado.
 ```
 
