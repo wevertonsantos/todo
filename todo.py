@@ -19,7 +19,7 @@ def main():
             escolha = int(input("Opções: 1 - Mostrar lista, 2 - Adicionar tarefa, 3 - Marcar como feita, 4 - Remover tarefa, 5 - Sair da To-Do List. O que deseja da sua To-Do List? "))
             # início do if
             if escolha == 1:
-                mostrando_lista()
+                mostrando_lista(lista_tarefas)
             elif escolha == 2:
                 adicionando_tarefa(lista_tarefas)
             elif escolha == 3:
@@ -33,7 +33,7 @@ def main():
             print("Essa opção não é válida. Tente novamente!")
 
 # função que mostra a lista de tarefas
-def mostrando_lista():
+def mostrando_lista(lista_tarefas):
     # verificando se lista está vazia
     if lista_tarefas == []: 
         print("Lista de tarefas vazia")
