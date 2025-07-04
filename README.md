@@ -10,9 +10,9 @@ Um projeto simples e funcional de To-Do List (lista de tarefas) feito em Python.
 - ✅ Interface interativa no terminal
 
 ### 💡 Como usar
-Clone o repositório:
 
 ```bash
+Clone o repositório:
 git clone https://github.com/wevertonsantos/todo.git
 
 Navegue até o diretório do projeto:
