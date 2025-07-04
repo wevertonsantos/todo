@@ -11,6 +11,7 @@ Remover tarefa (opcional): a tarefa pode ser apagada ou arquivada.
 
 # criando lista
 lista_tarefas = []
+lista_tarefas_feitas = []
 # fazendo loop while para não sair do programa assim que escolher alguma opção
 while True:
     try:
@@ -38,8 +39,10 @@ while True:
             # verificando se tarefa está na lista
             if tarefa_feita in lista_tarefas:
                 # atribuindo concluído na tarefa feita
-                lista_tarefas[lista_tarefas.index(tarefa_feita)] = f"[x] - {tarefa_feita} - concluído"
-                print("Tarefa marcada como concluída")
+                lista_tarefas.remove(tarefa_feita)
+                print("Tarefa concluída")
+            else:
+                print("Está tarefa não existe na lista")
         elif escolha == 4:
             # perguntando qual tarefa deseja excluir
             tarefa_para_excluir = input("Digite a tarefa que deseja excluir: ")
