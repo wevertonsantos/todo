@@ -74,3 +74,5 @@ def excluindo_tarefa(lista_tarefas):
         print("Tarefa removida com sucesso")
     else:
         print("Está tarefa não existe na lista")
+
+main()
